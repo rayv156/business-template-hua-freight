@@ -24,7 +24,9 @@ const Contact = ({data}) => {
 </section>
 <div className="container">
 
-<form action="https://getform.io/f/b4b7d02d-ae85-4874-a216-0a5397f8b409" method="POST">
+<form netlify-honeypot="bot-field" data-netlify="true" name="contact" method="POST">
+  <input type="hidden" name="bot-field" />
+  <input type="hidden" name="form-name" value="contact" />
 <div className="field">
   <label htmlFor="name-input" className="label">Name</label>
   <div className="control">
@@ -53,7 +55,7 @@ const Contact = ({data}) => {
   </div>
 </div>
 
-<ReCAPTCHA style={{marginBottom: '1rem'}} sitekey={process.env.GATSBY_RECAPTCHA_SITE_KEY} onChange={() => {setDisabled(false); setError(false)}}/>
+{/* <ReCAPTCHA style={{marginBottom: '1rem'}} sitekey={process.env.GATSBY_RECAPTCHA_SITE_KEY} onChange={() => {setDisabled(false); setError(false)}}/>
 { error ?
   <div className="icon-text">
     <span className="icon has-text-danger">
@@ -62,7 +64,7 @@ const Contact = ({data}) => {
     <span>There was an error in your submission.  Please make sure to check the checkbox above. </span>
   </div>
 : null
-}
+} */}
 <div className="field is-grouped">
   <div className="control">
     {disabled 
