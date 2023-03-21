@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Navbar from '../components/Navbar';
 import { graphql } from "gatsby";
 import { faEnvelope, faPhone, faPaperPlane, faHouse } from '@fortawesome/free-solid-svg-icons'
-import companyLogo from '../../src/images/rv_trans_logo.png'
+import companyLogo from '../../src/images/hua_freight_logo.png'
 
 const About = ({data}) => {
     const { businessInfo, title, description } = data.site.siteMetadata;
@@ -19,18 +19,18 @@ const About = ({data}) => {
     <div className="media">
       <div className="media-left">
         <figure className="image is-48x48">
-          <img src={companyLogo} alt="RV Trans Logo" />
+          <img src={companyLogo} alt="HUA FREIGHT Logo" />
         </figure>
       </div>
       <div className="media-content">
-        <p className="title is-4">RV Trans</p>
+        <p className="title is-4">{title}</p>
       </div>
     </div>
 
     <div className="content">
       <FontAwesomeIcon icon={faPaperPlane} size="lg" style={{marginRight: '1rem', color: 'rgb(0,3,116)'}}/>
-      1816 Orange Blossom Loop
-        Laredo, TX 78045
+      110 E Houston St 8th Floor
+      San Antonio, TX 78205
         
     </div>
     <div className="content">
@@ -39,28 +39,22 @@ const About = ({data}) => {
     </a>
     </div>
     <div className="content">
-      <a href="mailto: roy@rvtrans.us">
+      <a href="mailto: info@huafreight.com">
       <FontAwesomeIcon icon={faEnvelope} size="lg" style={{marginRight: '1rem', color: 'rgb(0,3,116)'}}/>
-      roy@rvtrans.us
+      info@huafreight.com
       </a>
     </div>
     <div className="content">
       <a href="/">
     <FontAwesomeIcon icon={faHouse} size="lg" style={{marginRight: '1rem', color: 'rgb(0,3,116)'}}/>
-    www.rvtrans.us
+    www.huafreight.com
     </a>
     </div>
     <div className="content">
-    MC#  125298
+    MC#  1286577
     </div>
     <div className="content">
-    USDOT# 3179700
-    </div>
-    <div className="content">
-    Banking  Texas Community Bank – Oscar Pena
-    </div>
-    <div className="content">
-    Established: 2018
+    USDOT# 3689522
     </div>
   </div>
 </div>

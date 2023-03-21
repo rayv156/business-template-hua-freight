@@ -2,7 +2,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
-import companyLogo from '../../src/images/rv_trans_logo.png'
+import companyLogo from '../../src/images/hua_freight_logo.png'
 import appleTouch from '../../src/images/apple-touch-icon.png'
 import favicon32 from '../../src/images/favicon-32x32.png'
 import favicon16 from '../../src/images/favicon-16x16.png'

@@ -18,13 +18,6 @@ const IndexPage = ({data}) => {
       <Navbar businessInfo={businessInfo} title={title} description={description}/>
       <Hero businessInfo={businessInfo}/>
       <div className="container" style={{gap: '1rem'}}>
-        {/* <div className="tile is-child box">
-          <div className="content" style={{textAlign: 'center'}}>
-          <p className="title">Honoring Breast Cancer Survivors</p>
-        <img src={chrisImage} alt="cancer survivor image" style={{width: '300px', zIndex: '3'}}/>
-        <FontAwesomeIcon icon={faRibbon} style={{fontSize: "125px" ,color: 'rgb(240, 0, 186)', position: 'absolute', margin: '0 0 0 -80px'}} size="lg"/>
-        </div>
-        </div> */}
       <div className="tile is-ancestor">
       <div className="tile is-parent">
     <article className="tile is-child box">
@@ -34,20 +27,23 @@ const IndexPage = ({data}) => {
        
         <h1 className="title is-size-4">
           <FontAwesomeIcon icon={faPeopleArrowsLeftRight} size="lg" />
-          <div>Personalized services</div>
+          <div>Dry Van</div>
+          <div>Fully enclosed to protect shipments from outside elements.</div>
           </h1>
       
       <hr></hr>
         <h1 className="title is-size-4">
         <FontAwesomeIcon icon={faBusinessTime} size="lg" />
-          <div>Over 35 years of experience</div>
+          <div>Flatbed</div>
+          <div>Standard flatbeds to specialized equipment, we have you covered.</div>
           </h1>
       
       <hr></hr>
       
         <h1 className="title is-size-4">
         <FontAwesomeIcon icon={faCircleCheck} size="lg" />
-          <div>100 freight broker credit score</div>
+          <div>LTL</div>
+          <div>Less-than-truckload shipping for smaller parcels.</div>
           </h1>
       
         </div>

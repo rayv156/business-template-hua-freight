@@ -12,13 +12,8 @@ const Footer = () => {
       <h4 className="bd-footer-title 
                  has-text-weight-medium
                  has-text-left">
-        RV Trans
+        HUA FREIGHT
       </h4>
-
-      <p className="bd-footer-link 
-                has-text-left">
-       Established in 2018
-      </p>
   
     </div>
 
@@ -81,11 +76,10 @@ const Footer = () => {
     </div>
     <div className="content has-text-centered">
     <img alt="American Flag" src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png" style={{marginRight: '1rem', width: '40px'}}></img>
-    <FontAwesomeIcon icon={faRibbon} style={{fontSize: "30px" ,color: 'hotpink'}} size="lg"/>
     </div>
     <div className="content has-text-centered">
     <p>
-      Created by <a href="https://rayvelasquez.netlify.app/">Ray Velasquez</a>. &#169; 2022.
+      Created by <a href="https://rayvelasquez.netlify.app/">Ray Velasquez</a>. &#169; 2023.
     </p>
   </div>
 </footer>
