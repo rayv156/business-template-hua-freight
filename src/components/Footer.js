@@ -1,5 +1,3 @@
-import { faRibbon } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 
 const Footer = () => {
@@ -54,13 +52,13 @@ const Footer = () => {
       </h4>
   
       <p className="bd-footer-link">
-          <a href="mailto: roy@rvtrans.us">
+          <a href="mailto: info@huafreight.com">
               <span className="icon-text">
                 <span>Email</span>
               </span>
             </a>
           <br />
-          <a href="tel:956-237-2658">
+          <a href="tel:210-995-5165">
               <span className="icon-text">
                 <span>Call Us</span>
               </span>

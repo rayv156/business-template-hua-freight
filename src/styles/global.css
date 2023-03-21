@@ -11,7 +11,7 @@
 }
 
 .title svg {
-        color: rgb(0,3,116);
+        color: #187412;
         margin-right: 1em;
 }
 
@@ -26,7 +26,7 @@ form {
 
 hr {
     width: 100%;
-    color: rgb(61,186,40);
+    color: 'black';
     border: solid;
 }
 

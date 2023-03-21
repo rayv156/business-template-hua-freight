@@ -54,25 +54,14 @@ const Contact = ({data}) => {
     <textarea className="textarea" id="message-input" placeholder="Ex:  I'm looking for a quote please call me back at ..." name="message"></textarea>
   </div>
 </div>
-
-{/* <ReCAPTCHA style={{marginBottom: '1rem'}} sitekey={process.env.GATSBY_RECAPTCHA_SITE_KEY} onChange={() => {setDisabled(false); setError(false)}}/>
-{ error ?
-  <div className="icon-text">
-    <span className="icon has-text-danger">
-    <FontAwesomeIcon icon={faCircleExclamation} size="sm" />
-    </span>
-    <span>There was an error in your submission.  Please make sure to check the checkbox above. </span>
-  </div>
-: null
-} */}
 <div className="field is-grouped">
   <div className="control">
-   <button type="submit" className="button is-link submit-button">Submit</button>
+   <button type="submit" className="button is-info">Submit</button>
   </div>
 </div>
 </form>
 
-{/* <iframe className="google-map" title="google map for RV Trans" src={businessInfo.googleAddress} width="600" height="450" style={{border:0}} allowFullScreen="" loading="lazy"></iframe> */}
+<iframe className="google-map" title="google map for HUA Freight" src={businessInfo.googleAddress} width="600" height="450" style={{border:0}} allowFullScreen="" loading="lazy"></iframe>
 
 </div>
 <Footer />

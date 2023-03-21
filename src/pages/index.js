@@ -27,23 +27,20 @@ const IndexPage = ({data}) => {
        
         <h1 className="title is-size-4">
           <FontAwesomeIcon icon={faPeopleArrowsLeftRight} size="lg" />
-          <div>Dry Van</div>
-          <div>Fully enclosed to protect shipments from outside elements.</div>
+          <div>Dry Van - Fully enclosed to protect shipments from outside elements.</div>
           </h1>
       
       <hr></hr>
         <h1 className="title is-size-4">
         <FontAwesomeIcon icon={faBusinessTime} size="lg" />
-          <div>Flatbed</div>
-          <div>Standard flatbeds to specialized equipment, we have you covered.</div>
+          <div>Flatbed - Standard flatbeds to specialized equipment, we have you covered.</div>
           </h1>
       
       <hr></hr>
       
         <h1 className="title is-size-4">
         <FontAwesomeIcon icon={faCircleCheck} size="lg" />
-          <div>LTL</div>
-          <div>Less-than-truckload shipping for smaller parcels.</div>
+          <div>LTL - Less-than-truckload shipping for smaller parcels.</div>
           </h1>
       
         </div>
