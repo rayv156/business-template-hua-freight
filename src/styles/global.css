@@ -58,7 +58,7 @@ hr {
 
 .parallax {
     /* The image used */
-    background-image: url(../images/trucking-image.jpg);
+    background-image: url(../images/hua-photo-1.png);
 
     /* Set a specific height */
     min-height: 300px;
@@ -67,7 +67,6 @@ hr {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
     z-index: 0;
 
 }
