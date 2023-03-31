@@ -19,12 +19,12 @@ const IndexPage = ({data}) => {
     <main className="parallax">
       <Navbar businessInfo={businessInfo} title={title} description={description}/>
       <Hero businessInfo={businessInfo}/>
-      <div class="content box">
+      <div class="content box" style={{background: 'rgb(256,256,256,.7)'}}>
   <h1>Our Services</h1>
   
       <div className="columns is-desktop">
       <div className="column">
-      <div class="card" style={{width: 300, height: 260}}>
+      <div class="card" style={{height: 260}}>
   <div class="card-image">
     <figure class="image" style={{display: 'flex', justifyContent: 'center'}}>
       <img src={vanImage} alt="Placeholder image" style={{width: '200px'}}/>
@@ -42,7 +42,7 @@ const IndexPage = ({data}) => {
 </div>
 </div>
 <div className="column">
-<div class="card" style={{width: 300, height: 260}}>
+<div class="card" style={{height: 260}}>
   <div class="card-image">
     <figure class="image" style={{display: 'flex', justifyContent: 'center'}}>
       <img src={flatbedImage} alt="Placeholder image" style={{width: '200px'}}/>
@@ -60,7 +60,7 @@ const IndexPage = ({data}) => {
 </div>
 </div>
 <div className="column">
-<div class="card" style={{width: 300, height: 260}}>
+<div class="card" style={{height: 260}}>
   <div class="card-image">
     <figure class="image" style={{display: 'flex', justifyContent: 'center'}}>
       <img src={ltlImage} alt="Placeholder image" style={{width: '200px'}}/>
@@ -80,12 +80,12 @@ const IndexPage = ({data}) => {
 </div>
 </div>
 
-<div class="content box">
+<div class="content box" style={{background: 'rgb(256,256,256,.7)'}}>
   <h1>What Our Customers Say</h1>
   
       <div className="columns is-desktop">
       <div className="column">
-      <div class="card" style={{width: 350}}>
+      <div class="card">
   <div class="card-content">
 
     <p class="title">
@@ -102,7 +102,7 @@ const IndexPage = ({data}) => {
 </div>
 </div>
 <div className="column">
-<div class="card" style={{width: 350}}>
+<div class="card">
   <div class="card-content">
 
     <p class="title">
@@ -119,7 +119,7 @@ const IndexPage = ({data}) => {
 </div>
 </div>
 <div className="column">
-<div class="card" style={{width: 350}}>
+<div class="card">
   <div class="card-content">
 
     <p class="title">
