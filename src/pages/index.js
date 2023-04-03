@@ -8,7 +8,7 @@ import Hero from '../components/Hero'
 import Footer from '../components/Footer'
 import { faPeopleArrowsLeftRight, faBusinessTime, faCircleCheck } from '@fortawesome/free-solid-svg-icons'
 import { graphql } from "gatsby";
-import vanImage from '../../src/images/dry-van.png';
+import vanImage from '../../src/images/hua-photo-4.png';
 import flatbedImage from '../../src/images/flat-bed.png';
 import ltlImage from '../../src/images/ltl-freight.png';
 
